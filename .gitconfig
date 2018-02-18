@@ -1,2 +1,6 @@
 [remote "origin"]
     url = https://github.com/AlonRM/GitTest2.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "develop"]
+    remote = origin
+    merge = refs/heads/develop
